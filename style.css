@@ -58,7 +58,21 @@ form input.operator {
 }
 
 #displayColor {
-    background-color:#13af92;
+    background-color: #13af92;
     border-radius: 10px;
     box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .calculator form input {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    form .display input {
+        font-size: 35px;
+    }
 }
