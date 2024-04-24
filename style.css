@@ -75,4 +75,7 @@ form input.operator {
     form .display input {
         font-size: 35px;
     }
+    form input.equal {
+        width: calc(100% - 20px);
+    }
 }
